@@ -1,13 +1,13 @@
-[![从一个想法，到一个产品。打开刘禹博的个人站](assets/portfolio-entry.png)](https://liuyvbo2026.github.io/)
+[![从一个想法，到一个产品。进入刘禹博的个人站](assets/pixel-hero.png)](https://liuyvbo2026.github.io/)
 
 ## 你好，我是刘禹博
 
-我做 AI 产品。看一个新方向时，我先比较市面上已有的做法，再顺着用户的实际流程找出哪些环节反复花时间，哪些问题值得先解决。方案落到工作流后，我用原型和评测检验模型能接住哪些任务，在哪些地方需要人工判断。
+我做 AI 产品。看到一个有意思的需求，我喜欢先看看市面上有哪些做法，再沿着用户的实际流程找找，哪里总让人多花时间。做项目时，我会把这个问题做成原型，拿实际任务试一试，看看哪些步骤适合交给 AI，哪些得留给人判断。
 
-## 作品
+## 精选项目
 
-| 项目 | 简介 |
-| :--- | :--- |
-| **[商图AI ↗](https://github.com/liuyvbo2026/shangtu-ai)** | 帮电商卖家把商品原图做成一套可用于上架的白底图、卖点图和场景图。 |
-| **[知应 ↗](https://github.com/liuyvbo2026/zhiying)** | 给客服团队一个处理访客会话、维护知识库和编排工作流草稿的工作台。 |
-| **[DocAI ↗](https://github.com/liuyvbo2026/docai)** | 把分散的资料收进一个工作台，提问时可以回到原文核对答案。 |
+<p>
+  <a href="https://github.com/liuyvbo2026/shangtu-ai"><img src="assets/pixel-shangtu.png" width="388" alt="商图AI。把商品原图做成可上架的白底图、卖点图和场景图。"></a>
+  <a href="https://github.com/liuyvbo2026/zhiying"><img src="assets/pixel-zhiying.png" width="388" alt="知应。把访客会话、知识库和工作流编排放进客服工作台。"></a>
+  <a href="https://github.com/liuyvbo2026/docai"><img src="assets/pixel-docai.png" width="388" alt="DocAI。把资料放进同一个工作台，提问后可以回到原文核对。"></a>
+</p>
