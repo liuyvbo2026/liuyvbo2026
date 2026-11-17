@@ -3,10 +3,10 @@
 <p>
   <a href="https://liuyvbo2026.github.io/">
     <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/hero-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/flat-works/hero-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/hero-desktop-dark.webp">
-      <img src="assets/flat-works/hero-desktop-light.webp" width="956" alt="刘禹博 · AI 产品经理。从一个想法，到一个产品。进入个人站。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/hero-matched-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/flat-works/hero-matched-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/hero-matched-desktop-dark.webp">
+      <img src="assets/flat-works/hero-matched-desktop-light.webp" width="956" alt="刘禹博 · AI 产品经理。从一个想法，到一个产品。进入个人站。">
     </picture>
   </a>
 </p>
