@@ -1,12 +1,12 @@
-<!-- Profile visuals: design/glass-works/render.html -->
+<!-- Profile visuals: design/site-entry/hero.html; design/glass-works/render.html -->
 
 <p>
   <a href="https://liuyvbo2026.github.io/">
     <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/hero-matched-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/flat-works/hero-matched-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/hero-matched-desktop-dark.webp">
-      <img src="assets/flat-works/hero-matched-desktop-light.webp" width="956" alt="刘禹博 · AI 产品经理。从一个想法，到一个产品。进入个人站。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/site-entry/hero-entry-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/site-entry/hero-entry-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/site-entry/hero-entry-desktop-dark.webp">
+      <img src="assets/site-entry/hero-entry-desktop-light.webp" width="956" alt="刘禹博的个人站 — 项目介绍、文章，以及更多关于我。进入个人站。">
     </picture>
   </a>
 </p>
