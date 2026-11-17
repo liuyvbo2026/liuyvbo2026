@@ -1,25 +1,31 @@
-# GitHub profile project gallery
+# Profile visuals
 
-This gallery follows the glass panels, typography, project order, and real product screenshots on https://liuyvbo2026.github.io/#works.
+The profile entrance follows the typography, grayscale pixel backdrop, and rounded button on https://liuyvbo2026.github.io/. The gallery displays two independently linked project cards per row on wide screens. Cards wrap naturally on narrow screens so descriptions remain readable.
 
-The original airy-studio portfolio entry is preserved. The gallery displays Shangtu AI, DocAI, Zhiying, and the repository index as separate accessible links. GitHub READMEs do not run custom CSS or JavaScript, so the visual cards are pre-rendered images.
+Each project has one flat outer card. The product screenshots inside retain their angled, overlapping composition. The gallery contains Shangtu AI, DocAI, Zhiying, and the repository index. The hero is now a static visual and links to the personal site.
 
-## Source and rendering
+GitHub READMEs do not run custom CSS or JavaScript, so the visuals are exported as images. Every image has descriptive alternative text and light/dark variants.
 
-Open `render.html` through a local HTTP server. Product screenshots and the background come from the personal site's assets; the remote references are included in the renderer. No generated product interface is used.
+## Rendering
+
+Serve `render.html` over HTTP. Product screenshots and the pixel backdrop are loaded from the personal site's assets.
 
 Query parameters:
 
-- `kind=heading|shangtu|docai|zhiying|repositories`
+- `kind=hero|heading|shangtu|docai|zhiying|repositories`
 - `size=desktop|mobile`
 - `theme=light|dark`
 
-Wait for `window.renderReady === true` before export. Desktop artboards are 840 CSS pixels wide; mobile artboards are 368 CSS pixels wide. Heights are 104/96 for the heading, 348/466 for project cards, and 128/137 for the repository link, respectively.
+Wait for `window.renderReady`. Export at twice the CSS dimensions by using a double-size viewport and document zoom 2. Save WebP at quality 94 to `assets/flat-works/{kind}-{size}-{theme}.webp`.
 
-Export at twice the CSS dimensions with document zoom set to 2, then save WebP at quality 92. Keep the filename pattern `{kind}-{size}-{theme}.webp` under `assets/glass-works/`.
+| Asset | Desktop CSS size | Mobile CSS size |
+| --- | --- | --- |
+| Hero | 840 × 360 | 368 × 382 |
+| Heading | 840 × 104 | 368 × 96 |
+| Project / repositories | 420 × 440 | 368 × 440 |
 
-The README chooses the mobile composition at viewport widths up to 1011 pixels, accounting for GitHub's profile sidebar, and follows the browser's `prefers-color-scheme` setting. Every linked image has descriptive alternative text. The original portfolio entry keeps its reduced-motion fallback.
+The README uses two linked 410-pixel-wide images within each gallery paragraph, with normal wrapping on smaller screens. Picture sources select the narrow composition up to 1011 viewport pixels and use `prefers-color-scheme` for theme selection.
 
-## Verification
+## Checks
 
-Checked desktop and narrow layouts, light/dark image selection, image loading, absence of horizontal overflow, and all project destinations. Product copy retains the information already published in the profile and personal site.
+Verified two project cards on each desktop row, complete image loading, correct destinations, no horizontal overflow, and readable mobile/dark variants. The renderer checks that project copy remains inside the outer card and no outer stack elements are present.
