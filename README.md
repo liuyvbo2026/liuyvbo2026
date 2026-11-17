@@ -13,10 +13,10 @@
 
 <p>
   <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/heading-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/flat-works/heading-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/heading-desktop-dark.webp">
-      <img src="assets/flat-works/heading-desktop-light.webp" width="956" alt="作品与实验 — 把想法做成可以使用的产品。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/heading-clean-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/flat-works/heading-clean-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/heading-clean-desktop-dark.webp">
+      <img src="assets/flat-works/heading-clean-desktop-light.webp" width="956" alt="作品与实验 — 把想法做成可以使用的产品。">
     </picture>
 </p>
 
