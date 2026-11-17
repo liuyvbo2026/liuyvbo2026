@@ -69,8 +69,8 @@ body.mobile .hero-title{font-size:37px;letter-spacing:-1px;line-height:1.4;margi
 body.mobile .hero-title span{display:block}
 body.mobile .hero-button{margin-top:26px;padding:12px 18px;font-size:12px}
 body.mobile .hero-pattern{background-size:740px;background-position:63% 45%;opacity:.18;mask-image:linear-gradient(100deg,transparent 10%,#000)}
-.artboard.project{width:420px;height:440px}
-.project .card{inset:8px 8px 12px;display:flex;flex-direction:column;padding:22px;background:linear-gradient(145deg,var(--canvas),#fafbfc);border:1px solid var(--line);border-radius:20px;box-shadow:none;backdrop-filter:none}
+.artboard.project{width:420px;height:auto}
+.project .card{position:relative;inset:auto;margin:8px 8px 12px;display:flex;flex-direction:column;padding:22px;background:linear-gradient(145deg,var(--canvas),#fafbfc);border:1px solid var(--line);border-radius:20px;box-shadow:none;backdrop-filter:none}
 .project .visual{height:216px;flex:none;margin:0}
 .project .screen{position:static;width:100%;height:216px;padding:0;background:#fff;border:1px solid var(--line);border-radius:11px;box-shadow:none;transform:none;overflow:hidden}
 .project .screen img{display:block;width:100%;height:100%;object-fit:contain;border-radius:0}
@@ -89,8 +89,8 @@ body.mobile .hero-pattern{background-size:740px;background-position:63% 45%;opac
 .repository-visual .code-caption{font-size:10px;letter-spacing:3px;color:var(--muted)}
 .dark .repository-visual{background:linear-gradient(145deg,#202731,#2a3441)}
 .dark .repository-visual .code-mark{color:#b8c1ce}
-body.mobile .artboard.project{width:368px;height:440px}
-body.mobile .project .card{inset:6px 5px 12px;padding:20px;border-radius:18px}
+body.mobile .artboard.project{width:368px;height:auto}
+body.mobile .project .card{inset:auto;margin:6px 5px 12px;padding:20px;border-radius:18px}
 body.mobile .project .visual,body.mobile .project .screen,body.mobile .repository-visual{height:202px}
 body.mobile .project .screen{position:static;width:100%;padding:0;transform:none;border-radius:10px}
 body.mobile .project .copy{padding:20px 0 0}
@@ -104,7 +104,7 @@ body.mobile .project .summary{font-size:16px;line-height:1.75}
 .screenshot-back img{display:block;width:100%;border-radius:7px;opacity:.7}
 .dark .screenshot-back,.dark .project .screen{background:#303741;border-color:#46505d}
 .repository-visual{height:232px}
-body.mobile .project .visual,body.mobile .repository-visual{height:210px}
+body.mobile .project .visual,body.mobile .repository-visual{height:210px;flex:none}
 body.mobile .project .screen{position:absolute;top:12px;left:2px;width:calc(100% - 14px);height:auto;padding:4px;transform:rotate(-3deg)}
 body.mobile .screenshot-back{left:29px;width:calc(100% - 34px)}
 </style>
@@ -114,7 +114,7 @@ body.mobile .screenshot-back{left:29px;width:calc(100% - 34px)}
 <script>
 const projects={
 shangtu:{number:'01',name:'商图AI',category:'电商工具 / AI 商品图',summary:'从商品原图出发，生成白底图、卖点图和场景图。',image:'project-shangtu-ai.jpg',secondary:'project-shangtu-layout.jpg',caption:'商品套图工作台'},
-docai:{number:'02',name:'DocAI',category:'AI 应用 / 文档问答',summary:'向资料提问、总结重点，顺着答案中的引用回到原文。',image:'project-docai-home-hd.png',secondary:'project-docai-answer-hd.png',caption:'文档问答与资料管理'},
+docai:{number:'02',name:'DocAI',category:'AI 应用 / 文档问答',summary:'向资料提问、总结重点，引用直达原文。',image:'project-docai-home-hd.png',secondary:'project-docai-answer-hd.png',caption:'文档问答与资料管理'},
 zhiying:{number:'03',name:'知应',category:'企业工具 / AI 客服',summary:'把会话、知识库与人工接管放在一个工作台。',image:'project-zhiying.jpg',secondary:'project-zhiying-knowledge.jpg',caption:'工作流草稿编辑器'},
 repositories:{number:'04',name:'全部仓库',category:'项目与源码',summary:'在 GitHub 上查看我的全部公开仓库。'}
 };
