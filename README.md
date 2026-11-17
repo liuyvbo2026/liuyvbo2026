@@ -3,20 +3,20 @@
 <p>
   <a href="https://liuyvbo2026.github.io/">
     <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/site-entry/hero-entry-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/site-entry/hero-entry-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/site-entry/hero-entry-desktop-dark.webp">
-      <img src="assets/site-entry/hero-entry-desktop-light.webp" width="956" alt="刘禹博的个人站 — 项目介绍、文章，以及更多关于我。进入个人站。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/site-entry/hero-greeting-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/site-entry/hero-greeting-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/site-entry/hero-greeting-desktop-dark.webp">
+      <img src="assets/site-entry/hero-greeting-desktop-light.webp" width="956" alt="你好，我是刘禹博。 — 项目介绍、文章，以及更多关于我。进入个人站。">
     </picture>
   </a>
 </p>
 
 <p>
   <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/heading-clean-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/flat-works/heading-clean-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/heading-clean-desktop-dark.webp">
-      <img src="assets/flat-works/heading-clean-desktop-light.webp" width="956" alt="作品与实验 — 把想法做成可以使用的产品。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/heading-soft-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/flat-works/heading-soft-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/heading-soft-desktop-dark.webp">
+      <img src="assets/flat-works/heading-soft-desktop-light.webp" width="956" alt="作品与实验 — 把想法做成可以使用的产品。">
     </picture>
 </p>
 
@@ -57,4 +57,3 @@
     </picture>
   </a>
 </p>
-
