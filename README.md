@@ -3,10 +3,10 @@
 <p>
   <a href="https://liuyvbo2026.github.io/">
     <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/site-entry/hero-greeting-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/site-entry/hero-greeting-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/site-entry/hero-greeting-desktop-dark.webp">
-      <img src="assets/site-entry/hero-greeting-desktop-light.webp" width="956" alt="你好，我是刘禹博。 — 项目介绍、文章，以及更多关于我。进入个人站。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/site-entry/hero-greeting-soft-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/site-entry/hero-greeting-soft-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/site-entry/hero-greeting-soft-desktop-dark.webp">
+      <img src="assets/site-entry/hero-greeting-soft-desktop-light.webp" width="956" alt="你好，我是刘禹博。 — 项目介绍、文章，以及更多关于我。进入个人站。">
     </picture>
   </a>
 </p>
