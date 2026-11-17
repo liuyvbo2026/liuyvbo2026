@@ -23,18 +23,18 @@
 <p align="center">
   <a href="https://github.com/liuyvbo2026/shangtu-ai">
     <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/shangtu-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/flat-works/shangtu-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/shangtu-desktop-dark.webp">
-      <img src="assets/flat-works/shangtu-desktop-light.webp" width="410" alt="商图AI — 从商品原图出发，生成白底图、卖点图和场景图。查看项目。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/shangtu-soft-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/flat-works/shangtu-soft-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/shangtu-soft-desktop-dark.webp">
+      <img src="assets/flat-works/shangtu-soft-desktop-light.webp" width="410" alt="商图AI — 从商品原图出发，生成白底图、卖点图和场景图。查看项目。">
     </picture>
   </a>
   <a href="https://github.com/liuyvbo2026/docai">
     <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/docai-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/flat-works/docai-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/docai-desktop-dark.webp">
-      <img src="assets/flat-works/docai-desktop-light.webp" width="410" alt="DocAI — 向资料提问、总结重点，顺着答案中的引用回到原文。查看项目。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/docai-soft-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/flat-works/docai-soft-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/docai-soft-desktop-dark.webp">
+      <img src="assets/flat-works/docai-soft-desktop-light.webp" width="410" alt="DocAI — 向资料提问、总结重点，顺着答案中的引用回到原文。查看项目。">
     </picture>
   </a>
 </p>
@@ -42,18 +42,18 @@
 <p align="center">
   <a href="https://github.com/liuyvbo2026/zhiying">
     <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/zhiying-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/flat-works/zhiying-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/zhiying-desktop-dark.webp">
-      <img src="assets/flat-works/zhiying-desktop-light.webp" width="410" alt="知应 — 把会话、知识库与人工接管放在一个工作台。查看项目。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/zhiying-soft-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/flat-works/zhiying-soft-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/zhiying-soft-desktop-dark.webp">
+      <img src="assets/flat-works/zhiying-soft-desktop-light.webp" width="410" alt="知应 — 把会话、知识库与人工接管放在一个工作台。查看项目。">
     </picture>
   </a>
   <a href="https://github.com/liuyvbo2026?tab=repositories">
     <picture>
-      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/repositories-mobile-dark.webp">
-      <source media="(max-width: 1011px)" srcset="assets/flat-works/repositories-mobile-light.webp">
-      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/repositories-desktop-dark.webp">
-      <img src="assets/flat-works/repositories-desktop-light.webp" width="410" alt="全部仓库 — 在 GitHub 上查看我的全部公开仓库。">
+      <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="assets/flat-works/repositories-soft-mobile-dark.webp">
+      <source media="(max-width: 1011px)" srcset="assets/flat-works/repositories-soft-mobile-light.webp">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/flat-works/repositories-soft-desktop-dark.webp">
+      <img src="assets/flat-works/repositories-soft-desktop-light.webp" width="410" alt="全部仓库 — 在 GitHub 上查看我的全部公开仓库。">
     </picture>
   </a>
 </p>
